@@ -1,0 +1,169 @@
+/* hero.css */
+
+.container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #FF5555, #FFA555);
+  }
+  
+  .header-content {
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .header-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .get-started,
+  .watch-video {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .get-started:hover {
+    background-color: #0056b3;
+  }
+  
+  .watch-video {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .watch-video:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .images {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .phone-container {
+    position: absolute;
+  }
+  
+  .phone1 {
+    transform: rotate(-10deg);
+    top: -50px;
+    left: 30%;
+  }
+  
+  .phone2 {
+    transform: rotate(0deg);
+    z-index: 1;
+  }
+  
+  .phone3 {
+    transform: rotate(10deg);
+    top: 50px;
+    right: 30%;
+  }
+  
+  .phone {
+    width: 200px;
+    height: auto;
+  }
+  
+  .tag {
+    position: absolute;
+    background-color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nishant {
+    top: 20px;
+    left: -20px;
+  }
+  
+  .shyamlata {
+    bottom: 20px;
+    left: -20px;
+  }
+  
+  .lucky {
+    bottom: 20px;
+    right: -20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-content h1 {
+      font-size: 2rem;
+    }
+  
+    .header-content p {
+      font-size: 0.9rem;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .phone {
+      width: 150px;
+    }
+  
+    .phone1 {
+      top: -30px;
+      left: 25%;
+    }
+  
+    .phone3 {
+      top: 30px;
+      right: 25%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .header-content p {
+      font-size: 0.8rem;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .phone {
+      width:
+    }
